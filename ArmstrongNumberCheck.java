@@ -4,7 +4,6 @@ public class ArmstrongNumberCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Get the number from the user
         System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
 

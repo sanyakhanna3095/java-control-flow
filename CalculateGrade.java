@@ -3,19 +3,16 @@ import java.util.Scanner;
 public class CalculateGrade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // Declare variables to store marks for Physics, Chemistry, and Maths
-        int physics, chemistry, maths;
-
+        
         // Take input for the marks of the three subjects
         System.out.print("Enter marks for Physics: ");
-        physics = sc.nextInt();
+        int physics = sc.nextInt();
         
         System.out.print("Enter marks for Chemistry: ");
-        chemistry = sc.nextInt();
+        int chemistry = sc.nextInt();
         
         System.out.print("Enter marks for Maths: ");
-        maths = sc.nextInt();
+        int maths = sc.nextInt();
 
         // Calculate the total marks and percentage
         int totalMarks = physics + chemistry + maths;

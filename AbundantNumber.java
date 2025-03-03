@@ -20,7 +20,8 @@ public class AbundantNumber {
         // Check if the sum of divisors is greater than the number itself
         if (sum > n) {
             System.out.println(n + " is an Abundant Number.");
-        } else {
+        } 
+	else {
             System.out.println(n + " is Not an Abundant Number.");
         }
     }

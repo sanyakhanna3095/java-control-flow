@@ -18,20 +18,22 @@ public class PrimeNumberCheck {
         } 
 	else {
             // Loop from 2 to the square root of the number
-            for (int i = 2; i <= num / 2; i++) {
+            for (int i = 2; i <= n / 2; i++) {
                 // If the number is divisible by any number between 2 and num/2, it is not prime
-                if (num % i == 0) {
-                    isPrime = false; // Number is not prime
-                    break; // Exit the loop as we found a divisor
+                if (n % i == 0) {
+                    //Number is not prime
+		    isPrime = false;
+                    // Exit the loop as we found a divisor
+		    break;
                 }
             }
         }
 
 	//Result
         if (isPrime) {
-            System.out.println(num + " is a Prime Number.");
+            System.out.println(n + " is a Prime Number.");
         } else {
-            System.out.println(num + " is not a Prime Number.");
+            System.out.println(n + " is not a Prime Number.");
         }
     }
 }

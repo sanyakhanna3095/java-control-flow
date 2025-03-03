@@ -20,10 +20,6 @@ public class DayOfWeek {
         int mo = m + 12 * ((14 - m) / 12) - 2;
         int dayOfWeek = (d + x + 31 * mo / 12) % 7;
 
-        // Print the day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
         System.out.println("The day of the week is: " + dayOfWeek);
-
-        // Close the scanner object
-        scanner.close();
     }
 }

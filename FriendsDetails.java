@@ -24,9 +24,11 @@ public class FriendsDetails {
         int youngestAge = Math.min(ageAmar, Math.min(ageAkbar, ageAnthony));
         if (youngestAge == ageAmar) {
             System.out.println("The youngest friend is Amar.");
-        } else if (youngestAge == ageAkbar) {
+        }
+	 else if (youngestAge == ageAkbar) {
             System.out.println("The youngest friend is Akbar.");
-        } else {
+        }
+	 else {
             System.out.println("The youngest friend is Anthony.");
         }
 
@@ -34,9 +36,11 @@ public class FriendsDetails {
         double tallestHeight = Math.max(heightAmar, Math.max(heightAkbar, heightAnthony));
         if (tallestHeight == heightAmar) {
             System.out.println("The tallest friend is Amar.");
-        } else if (tallestHeight == heightAkbar) {
+        }
+	else if (tallestHeight == heightAkbar) {
             System.out.println("The tallest friend is Akbar.");
-        } else {
+        } 
+	else {
             System.out.println("The tallest friend is Anthony.");
         }
     }

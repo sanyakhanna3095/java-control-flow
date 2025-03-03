@@ -2,23 +2,23 @@ import java.util.Scanner;
 
 public class FriendsDetails {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Get ages and heights of the friends
         System.out.print("Enter the age of Amar: ");
-        int ageAmar = scanner.nextInt();
+        int ageAmar = sc.nextInt();
         System.out.print("Enter the height of Amar: ");
-        double heightAmar = scanner.nextDouble();
+        double heightAmar = sc.nextDouble();
 
         System.out.print("Enter the age of Akbar: ");
-        int ageAkbar = scanner.nextInt();
+        int ageAkbar = sc.nextInt();
         System.out.print("Enter the height of Akbar: ");
-        double heightAkbar = scanner.nextDouble();
+        double heightAkbar = sc.nextDouble();
 
         System.out.print("Enter the age of Anthony: ");
-        int ageAnthony = scanner.nextInt();
+        int ageAnthony = sc.nextInt();
         System.out.print("Enter the height of Anthony: ");
-        double heightAnthony = scanner.nextDouble();
+        double heightAnthony = sc.nextDouble();
 
         // Find the youngest friend
         int youngestAge = Math.min(ageAmar, Math.min(ageAkbar, ageAnthony));

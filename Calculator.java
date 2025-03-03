@@ -31,7 +31,8 @@ public class Calculator {
                 if (second != 0) {
                     result = first / second;
                     System.out.println("Result: " + first + " / " + second + " = " + result);
-                } else {
+                } 
+		else {
                     System.out.println("Error: Cannot divide by zero.");
                 }
                 break;

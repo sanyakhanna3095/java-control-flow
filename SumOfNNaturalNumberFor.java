@@ -29,9 +29,10 @@ public class SumOfNNaturalNumberFor {
 
         // Check if results match
         if (formulaSum == loopSum) {
-            System.out.println("Both computations are correct!");
-        } else {
-            System.out.println("There is a discrepancy in the results.");
+            System.out.println("Match!");
+        } 
+	else {
+            System.out.println("Different X");
         }
     }
 }

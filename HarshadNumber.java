@@ -20,7 +20,8 @@ public class HarshadNumber {
         // Check if the original number is divisible by the sum of its digits
         if (originalNumber % sum == 0) {
             System.out.println(originalNumber + " is a Harshad Number.");
-        } else {
+        } 
+	else {
             System.out.println(originalNumber + " is Not a Harshad Number.");
         }
     }

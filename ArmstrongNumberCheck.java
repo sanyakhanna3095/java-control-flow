@@ -5,11 +5,11 @@ public class ArmstrongNumberCheck {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a positive integer: ");
-        int number = sc.nextInt();
+        int n = sc.nextInt();
 
         // Initialize sum and store the original number
         int sum = 0;
-        int originalNumber = number;
+        int originalNumber = n;
 
         // Calculate the sum of the cubes of its digits
         while (originalNumber != 0) {
@@ -19,10 +19,10 @@ public class ArmstrongNumberCheck {
         }
 
         // Check if the sum equals the original number
-        if (sum == number) {
-            System.out.println(number + " is an Armstrong number.");
+        if (sum == n) {
+            System.out.println(n + " is an Armstrong number.");
         } else {
-            System.out.println(number + " is not an Armstrong number.");
+            System.out.println(n + " is not an Armstrong number.");
         }
     }
 }

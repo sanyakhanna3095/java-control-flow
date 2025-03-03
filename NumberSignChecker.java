@@ -10,9 +10,11 @@ public class NumberSignChecker {
         // Check if the number is positive, negative, or zero
         if (n > 0) {
             System.out.println("The number is positive.");
-        } else if (n < 0) {
+        } 
+	else if (n < 0) {
             System.out.println("The number is negative.");
-        } else {
+        } 
+	else {
             System.out.println("The number is zero.");
         }
 

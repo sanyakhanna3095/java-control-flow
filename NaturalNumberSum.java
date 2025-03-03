@@ -12,7 +12,8 @@ public class NaturalNumberSum {
         if (n >= 0) {
             int sum = (n * (n + 1)) / 2; // Formula to calculate sum of n natural numbers
             System.out.println("The sum of " + n + " natural numbers is " + sum);
-        } else {
+        } 
+	else {
             System.out.println("The number " + n + " is not a natural number");
         }
 

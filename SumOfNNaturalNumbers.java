@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class SumOfNNaturalNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         // Get user input
         System.out.print("Enter a natural number: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         // Check if the number is a natural number
         if (n < 1) {
@@ -31,9 +31,10 @@ public class SumOfNNaturalNumbers {
 
         // Check if results match
         if (formulaSum == loopSum) {
-            System.out.println("Both computations are correct!");
-        } else {
-            System.out.println("There is a discrepancy in the results.");
+            System.out.println("Match!");
+        } 
+	else {
+            System.out.println("Different X");
         }
     }
 }

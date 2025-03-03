@@ -18,7 +18,8 @@ public class OddEven {
         for (int i = 1; i <= n; i++) {
             if (i % 2 == 0) {
                 System.out.println(i + " is an even number.");
-            } else {
+            } 
+	    else {
                 System.out.println(i + " is an odd number.");
             }
         }

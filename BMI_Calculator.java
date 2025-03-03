@@ -20,14 +20,18 @@ public class BMI_Calculator {
         // Display the BMI value
         System.out.println("Your BMI is: " + bmi);
 
-        // Classify the BMI and print the corresponding weight status
+        //determine the weight status of the person
+
         if (bmi <= 18.4) {
             System.out.println("Status: Underweight");
-        } else if (bmi >= 18.5 && bmi <= 24.9) {
+        } 
+	else if (bmi >= 18.5 && bmi <= 24.9) {
             System.out.println("Status: Normal");
-        } else if (bmi >= 25.0 && bmi <= 39.9) {
+        } 
+	else if (bmi >= 25.0 && bmi <= 39.9) {
             System.out.println("Status: Overweight");
-        } else {
+        } 
+	else {
             System.out.println("Status: Obese");
         }
     }

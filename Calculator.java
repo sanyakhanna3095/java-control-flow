@@ -4,18 +4,14 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Declare two double variables for input values and a String variable for operator
-        double first, second, result;
-        String op;
-
-        // Get input values from the user
+         // Take user input
         System.out.print("Enter first number: ");
-        first = sc.nextDouble();
+        double first = sc.nextDouble();
         System.out.print("Enter second number: ");
-        second = sc.nextDouble();
+        double second = sc.nextDouble();
         sc.nextLine();  // Consume newline character
         System.out.print("Enter operator (+, -, *, /): ");
-        op = sc.nextLine();
+        String op = sc.nextLine();
 
         // Use switch...case to perform the required operation
         switch(op) {

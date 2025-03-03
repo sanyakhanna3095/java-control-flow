@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class FizzBuzz {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // Get the number from the user
+        // Take the number as user input
         System.out.print("Enter a positive integer: ");
-        int number = scanner.nextInt();
+        int n = sc.nextInt();
 
         // Check if the number is a positive integer
-        if (number < 1) {
-            System.out.println(number + " is not a positive integer.");
+        if (n < 1) {
+            System.out.println(n + " is not a positive integer.");
             return;
         }
 
         // Loop and print Fizz, Buzz, or FizzBuzz
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if (i % 3 == 0) {

@@ -6,16 +6,15 @@ public class HarshadNumber {
 
         // Get the number from the user
         System.out.print("Enter a number: ");
-        int number = sc.nextInt();
+        int n = sc.nextInt();
 
-        // Initialize sum to 0
         int sum = 0;
-        int originalNumber = number;
+        int originalNumber = n;
 
         // Calculate the sum of digits of the number
-        while (number > 0) {
-            sum += number % 10;  // Add the last digit to sum
-            number = number / 10;  // Remove the last digit from the number
+        while (n > 0) {
+            sum += n % 10; 
+            n = n / 10; 
         }
 
         // Check if the original number is divisible by the sum of its digits

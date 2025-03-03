@@ -6,23 +6,22 @@ public class AbundantNumber {
 
         // Get the number from the user
         System.out.print("Enter a number: ");
-        int number = sc.nextInt();
+        int n = sc.nextInt();
 
-        // Initialize sum of divisors to 0
         int sum = 0;
 
         // Loop through all numbers from 1 to number - 1 to find divisors
-        for (int i = 1; i < number; i++) {
-            if (number % i == 0) {
+        for (int i = 1; i < n; i++) {
+            if (n % i == 0) {
                 sum += i;  // Add the divisor to sum
             }
         }
 
         // Check if the sum of divisors is greater than the number itself
-        if (sum > number) {
-            System.out.println(number + " is an Abundant Number.");
+        if (sum > n) {
+            System.out.println(n + " is an Abundant Number.");
         } else {
-            System.out.println(number + " is Not an Abundant Number.");
+            System.out.println(n + " is Not an Abundant Number.");
         }
     }
 }

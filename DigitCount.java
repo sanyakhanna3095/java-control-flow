@@ -10,7 +10,7 @@ public class DigitCount {
         int count = 0;
 
         // In case of negative input
-        n = Math.abs(number);
+        n = Math.abs(n);
 
         // Loop to count digits until the number becomes 0
         while (n != 0) {
